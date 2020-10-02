@@ -6,16 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-<<<<<<< HEAD
-=======
-	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="test">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
->>>>>>> 0925563648c9c33ba9924ebfd09031f591431f44
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -40,10 +30,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="ignore_optional_problems" value="true"/>
 			<attribute name="m2e-apt" value="true"/>
-<<<<<<< HEAD
-=======
-			<attribute name="test" value="true"/>
->>>>>>> 0925563648c9c33ba9924ebfd09031f591431f44
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>

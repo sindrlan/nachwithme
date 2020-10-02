@@ -43,7 +43,7 @@
 
   <property name="fileExtensions" value="java, properties, xml"/>
 
-  <!-- Excludes all 'module-info.java' files              -->
+  <!-- Excludes all 'module-info.core' files              -->
   <!-- See https://checkstyle.org/config_filefilters.html -->
   <module name="BeforeExecutionExclusionFileFilter">
     <property name="fileNamePattern" value="module\-info\.java$"/>
@@ -56,7 +56,7 @@
     <property name="optional" value="true"/>
   </module>
 
-  <!-- Checks that a package-info.java file exists for each package.     -->
+  <!-- Checks that a package-info.core file exists for each package.     -->
   <!-- See https://checkstyle.org/config_javadoc.html#JavadocPackage -->
 <!--  <module name="JavadocPackage"/>-->
 
@@ -92,7 +92,7 @@
   <!-- See https://checkstyle.org/config_header.html   -->
   <!-- <module name="Header"> -->
   <!--   <property name="headerFile" value="${checkstyle.header.file}"/> -->
-  <!--   <property name="fileExtensions" value="java"/> -->
+  <!--   <property name="fileExtensions" value="core"/> -->
   <!-- </module> -->
 
   <module name="TreeWalker">
